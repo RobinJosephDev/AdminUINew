@@ -1,0 +1,33 @@
+.footer {
+  background-color: rgb(33, 37, 41);
+  color: rgb(139 157 158);
+  text-align: center;
+  padding: 15px 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center; 
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-text {
+  font-size: 12px;
+}
+
+.footer-nav {
+  display: flex;
+  gap: 15px;
+}
+
+.copyright{
+  margin-bottom: 0rem;
+  font-size: 13px;
+}

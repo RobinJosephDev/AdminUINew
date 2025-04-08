@@ -1,0 +1,100 @@
+/* Lead badges */
+
+.badge-prospect {
+  background-color: #e57373;
+  color: #ffffff;
+}
+
+.badge-lanes {
+  background-color: #ff8a65;
+  color: #ffffff;
+}
+
+.badge-product {
+  background-color: #43a047;
+  color: #ffffff;
+}
+
+.badge-email {
+  background-color: #0097a7;
+  color: #ffffff;
+}
+
+.badge-carrier {
+  background-color: #1976d2;
+  color: #ffffff;
+}
+
+.badge-quotation {
+  background-color: #1565c0;
+  color: #ffffff;
+}
+
+.badge-broker {
+  background-color: #c2185b;
+  color: #ffffff;
+}
+
+.badge-voicemail {
+  background-color: #ff7043;
+  color: #ffffff;
+}
+
+.badge-different {
+  background-color: #8e24aa;
+  color: #ffffff;
+}
+
+.badge-callback {
+  background-color: #f9a825;
+  color: #ffffff;
+}
+
+.badge-not-interested {
+  background-color: #d32f2f;
+  color: #ffffff;
+}
+
+.badge-asset {
+  background-color: #512da8;
+  color: #ffffff;
+}
+
+.badge-default {
+  background-color: #616161;
+  color: #ffffff;
+}
+
+.badge {
+  padding: 5px 10px !important;
+  border-radius: 12px !important;
+  font-size: 12px !important;
+  font-weight: 500 !important;
+}
+
+/* Lead Follow-up badges */
+
+.badge-new {
+  background-color: #1b5e20;
+  color: #ffffff;
+}
+
+.badge-in-progress {
+  background-color: #ff6f00;
+  color: #ffffff;
+}
+
+.badge-completed {
+  background-color: #0d47a1;
+  color: #ffffff;
+}
+
+.badge-on-hold {
+  background-color: #f57f17;
+  color: #ffffff;
+}
+
+.badge-lost {
+  background-color: #b71c1c;
+  color: #ffffff;
+}

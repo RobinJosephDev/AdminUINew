@@ -1,0 +1,74 @@
+.navbar-custom {
+  background: linear-gradient(135deg, #2c3e50, #1e2a38);
+  padding: 5px 15px;
+  height: 4rem;
+  align-items: center;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+  gap: 2rem;
+  background-color: #000;
+}
+
+.navbar-nav {
+  padding-left: 8rem !important;
+}
+
+.brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #000 !important;
+}
+
+.nav-link {
+  border: 1px solid #2c3e50;
+  font-size: 13px !important;
+}
+
+.nav-link-custom {
+  color: #000 !important;
+  font-size: 1rem;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-link-custom:hover {
+  color: #f1c40f !important;
+}
+
+/* Dropdown menu styling */
+.dropdown-menu {
+  background-color: #2c3e50 !important;
+  color: #fff !important;
+  z-index: 2000; /* Ensure the dropdown appears above the table header */
+  position: absolute; /* Position it outside the normal flow */
+}
+
+.dropdown-item {
+  font-size: 12px;
+  background-color: #2c3e50 !important;
+  color: #fff !important;
+}
+
+.dropdown-item:hover {
+  background-color: #f1c40f !important;
+}
+
+.navbar-nav .nav-link-custom .dropdown-menu {
+  background-color: #2c3e50;
+}
+
+.navbar-nav .nav-link-custom .dropdown-menu .dropdown-item {
+  color: #000 !important;
+}
+
+.navbar-nav .nav-link-custom .dropdown-menu .dropdown-item:hover {
+  background-color: #f1c40f !important;
+  color: #2c3e50 !important;
+}
