@@ -9,7 +9,7 @@ jest.mock("axios");
 jest.mock("sweetalert2");
 
 // Mock ShipmentDetails component
-jest.mock("../../../src/components/forms/shipment/ShipmentDetails", () => ({
+jest.mock("../../../src/components/Sales/AddShipment/ShipmentDetails", () => ({
   __esModule: true,
   default: ({ shipment, setShipment }: any) => (
     <div>

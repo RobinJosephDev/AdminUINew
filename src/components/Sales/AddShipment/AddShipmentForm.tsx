@@ -39,7 +39,7 @@ const AddShipmentForm: React.FC<AddShipmentFormProps> = ({ onClose, onAddShipmen
     ship_notes: '',
   });
 
-  const API_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:3000/api';
+  const API_URL = process.env.API_BASE_URL;
 
   const handleSubmit = async (event: React.FormEvent) => {
     event.preventDefault();
